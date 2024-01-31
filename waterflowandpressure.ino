@@ -8,9 +8,9 @@ const int MAX_HEIGHT = 20;
 const int MIN_HEIGHT = 0;
 String sensorID = "WL001";  // Ganti dengan ID sensor Anda
 
-const char* ssid = "TSI_IoT";
-const char* password = "tsispot123";
-const char* serverURL = "http://203.190.53.159/ma/tes2/api.php"; // Ganti dengan alamat server dan endpoint yang sesuai
+const char* ssid = "Nama wifi anda";
+const char* password = "password wifi anda";
+const char* serverURL = "http://200.000.00/ma/tes2/api.php"; // Ganti dengan alamat server dan endpoint yang sesuai
 
 void setup() {
   Serial.begin(9600);
